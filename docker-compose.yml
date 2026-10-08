@@ -1,0 +1,7 @@
+services:
+  passgen-web:
+    image: ghcr.io/ttolyanich/passgen-web:latest
+    container_name: passgen-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
