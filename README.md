@@ -4,7 +4,7 @@
 [![Docker Image](https://img.shields.io/badge/docker-ghcr.io-blue?logo=docker)](https://github.com/Ttolyanich/passgen-web/pkgs/container/passgen-web)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Полная автономная реплика современного генератора паролей (на базе движка passgen.co).  
+Полная автономная реплика современного генератора паролей .  
 Приложение работает **на 100% на клиенте** (в браузере пользователя с использованием стандартного криптографического API `crypto.getRandomValues`). Никакие пароли или введённые данные никуда не передаются.
 
 ---

@@ -1,5 +1,6 @@
 services:
   passgen-web:
+    build: .
     image: ghcr.io/ttolyanich/passgen-web:latest
     container_name: passgen-web
     restart: unless-stopped
